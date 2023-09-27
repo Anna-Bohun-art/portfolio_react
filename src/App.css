@@ -1,9 +1,29 @@
-.App {
+
+body { 
+  background: url(img/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Just Another Hand', sans-serif;
+}
+ .App {
+  margin-top: 20vh;
+  padding-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  background-color: rgb(var(--body_background), 0.8);
+  color: rgb(var(--body_color), 0.8);
+  border-radius: 12px;
+  margin-bottom: 5vh;
+  padding-bottom: 5vh;
+  border: 3px solid rgb(243, 58, 106);
+  width: 100vw;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 40vh;
   pointer-events: none;
 }
 
@@ -14,18 +34,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +49,138 @@
   to {
     transform: rotate(360deg);
   }
+}
+.dark_mode {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vh;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+ }
+
+ .myself {
+  height: 300px;
+  width: auto;
+  border-radius: 15px;
+  border: 5px solid rgb(243, 58, 106);
+
+}
+
+  .linkedin_icon, .github_icon {
+  height: 5vh;
+  width: auto;
+ }
+
+ .contact-form {
+  margin-right: auto;
+  margin-left: auto;
+  width: 25vw;
+ }
+ .contact-form h1{
+  text-transform: uppercase;
+ }
+ .form-group {
+  margin-top: 2vh;
+ }
+ .form-group > label {
+  font-size: 50;
+  margin-bottom: 1vh;
+  margin-right: 3vw;
+ }
+ .form-group input {
+    border-radius: 10px;
+ }
+ .form-group > small {
+  margin-top: 1vh;
+ }
+ .contact-form > button {
+  margin-top: 3vh;
+ }
+ input {
+  line-height: 2em;
+}
+.submit-button {
+  line-height: 2em;
+}
+textarea {
+  border-radius: 10px;
+}
+form {
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  height: 4vh;
+  width: 8vw;
+  background-color: var(--link_color);
+  border-radius: 10px;
+}
+.column:hover {
+  color: var(--link_color);
+}
+.cookbook {
+  width: 40vw;
+  height: auto;
+}
+.lets {
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  text-transform: uppercase;
+}
+.work{
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-link{
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: rgb(243, 58, 106);
+}
+.pokefight, .hacker-news, .cookbook {
+  height: 25vh;
+  height: auto;
+}
+.web-design, .back-end, .methodologies, .tools {
+  width: 50px;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-expertise > .container > .row {
+  margin-bottom: 1vh;
+}
+ ul li {
+  list-style:none;
+}
+.my-expertise-card {
+  height: 35vh;
+}
+.greetingslink-row {
+  margin-top: 5vh;
+}
+.greetings {
+  margin-top: 5vh;
+}
+.card-title {
+  color: rgb(243, 58, 106);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.page-name {
+  text-transform: uppercase;
+}
+.project-img {
+  height: 300px;
+  width: auto;
+}
+.card {
+  margin-bottom: 5vh;
 }
